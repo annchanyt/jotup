@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    clear:both;
+    content:"";
+    display:block;
+    visibility:hidden;
+    position:relative;
+}
+.full-width{
+    width: 100%;
+    height: auto;
+}
+:target:before {
+  content:"";
+  display:block;
+  height: 92px; /* fixed header height*/
+  margin:-92px 0 0; /* negative fixed header height */
+}
+/* Typography
+=========================================== */
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+h1, h3, h4, h5, h6{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1{
+  font-size: 30px;
+  color: #283853;
+}
+h2{
+  font-family: 'Georgia', Serif;
+  font-size: 18px;
+  color: #47525D;
+}
+h3{
+  color: #635593;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 36px;
+  color: #47525D;
+  margin-bottom: 24px;
+}
+h6{
+  font-size: 16px;
+  font-weight: 300;
+  color: #47525D;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+p{
+  font-family:"HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666;
+}
+blockquote{
+  border: none;
+  font-size: 30px;
+  color: #47525D;
+}
+cite{
+  display: block;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  color: #635593;
+  margin-bottom: 10px;
+}
+/* Buttons 
+=========================================== */
+.btn{
+  background: #80358B;
+  color: #fff;
+  font-size: 24px;
+  padding:10px 30px;
+  margin-top: 20px;
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+  background: #5e2766;
+  color: #fff;
+}
+.navbar-nav .btn-sm{
+  background: #80358B;
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #fff !important;
+  margin: 8px 0;
+}
+.btn-sm:hover,
+.btn-sm:active,
+ .btn-sm:focus{
+  background: #5e2766 !important;
+  color: #fff !important;
+}
+/* General Layout and styles
+=========================================== */
+.navbar{
+  background: #fff;
+}
+.navbar-brand{
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #555893 !important;
+}
+#banner{
+  text-align: center;
+  padding: 200px 0;
+  background: #fff url(../images/hero-bg.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.feature{
+  margin-bottom: 80px;
+}
+.img-right{
+  padding-left: 20px;
+}
+.img-left{
+  padding-right: 20px;
+}
+#quote{
+  text-align: center;
+  padding: 40px 0;
+}
+#testimonials{
+  padding: 40px 0;
+  text-align: center;
+}
+.avatar{
+  margin-bottom: 15px;
+}
+#testimonials p{
+  font-family: 'Georgia';
+  font-size: 14px;
+  margin: 0 8px;
+}
+#logo{
+  padding: 10px 0;
+  text-align: center;
+}
+.logo-img{
+  margin: 0 15px 5px 15px;
+  height: 60px;
+}
+#cta{
+  text-align: center;
+  padding: 100px 0;
+}
